@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Fictional-resto-bootstrap</title>
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <!-- Bootstrap -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <!-- Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header>
+	<!-- navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+		<a class="navbar-brand" href="#">sunny's yum yum <i class="fa fa-sun" aria-hidden="true"></i></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#demo">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="demo">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+				   <a class="nav-link" href="#hero">Hero</a>
+				</li>
+				<li class="nav-item">
+				   <a class="nav-link" href="#menu">Menu</a>
+				</li>
+				<li class="nav-item">
+				   <a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</i></a>
+				 </li>
+			</ul>
+		</div>
+	</header>
+   <!-- hero section -->
+   <section id="Hero" class="jumbotron text-center" style="padding: 100px 0;">
+	<img src="photo1.jpg" width="90%" alt="">
+	<div class="container">
+	  <h1 class="display-2" style="color: rgb(235, 177, 18); margin-top: 30px;">Welcome to Our Restaurant</h1>
+	  <p class="display-4" style="color: black; margin-bottom: 40px;">The best place to enjoy your meals.</p>
+	  <a class="btn btn-warning btn-lg" href="#menu" role="button">Check Our Menu</a>
+	</div>
+   </section>
+  <!-- menu section -->
+  <section id="Menu" class="container py-5 text-center">
+	<div class="row">
+	  <div class="col-12 text-center">
+		<h2 class="display-4" style="color: rgb(235, 177, 18);">Our Menu</h2>
+		<p class="display-5">Delicious and fresh food.</p>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="col-md-4">
+		<div class="card mb-4">
+		  <img src="img1.jfif" class="card-img-top" alt="Dish 1">
+		  <div class="card-body">
+			<h5 class="card-title" style="color: rgb(235, 177, 18);">Entrée</h5>
+			<p class="card-text">Enjoy yourself with our mouth-watering gourmet dish .</p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-md-4">
+		<div class="card mb-4">
+		  <img src="img.jfif" class="card-img-top" alt="Dish 2">
+		  <div class="card-body">
+			<h5 class="card-title" style="color: rgb(235, 177, 18);">Main</h5>
+			<p class="card-text">Dive into our wonderland with this magical dish.</p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-md-4">
+		<div class="card mb-4">
+		  <img src="dessert-photo.jfif" class="card-img-top" alt="Dish 3">
+		  <div class="card-body">
+			<h5 class="card-title" style="color: rgb(235, 177, 18);">Dessert</h5>
+			<p class="card-text">Treat yourself with our exquisite choco-lemon dessert .</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  <!-- contact section -->
+  <section id="Contact" class="container py-5">
+	<div class="row">
+	  <div class="col-12 text-center">
+		<h2 class="display-4" style="color: rgb(235, 177, 18);">Contact Us</h2>
+		<p class="display-5">We'd love to hear from you!</p>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="col-md-6 mb-4">
+		<form>
+		  <div class="mb-3">
+			<label for="name" class="form-label">Name</label>
+			<input type="text" class="form-control" id="name" placeholder="Your Name">
+		  </div>
+		  <div class="mb-3">
+			<label for="email" class="form-label">Email</label>
+			<input type="email" class="form-control" id="email" placeholder="Your Email">
+		  </div>
+		  <div class="mb-3">
+			<label for="message" class="form-label">Message</label>
+			<textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+		  </div>
+		  <button type="submit" class="btn btn-warning">submit</button>
+		</form>
+	  </div>
+	</div>
+  </section>
+  <!-- footer section -->
+  <footer class="bg-light text-center py-4">
+	<div class="container">
+	  <p class="mb-0">&copy; Sunny's yum yum <i class="fa fa-sun" aria-hidden="true"></i> Restaurant. All rights reserved.</p>
+	</div>
+  </footer>  
+</body>
+</html>
